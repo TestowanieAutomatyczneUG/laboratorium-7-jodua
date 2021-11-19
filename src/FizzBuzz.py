@@ -37,66 +37,31 @@ class FizzBuzz:
         'Buzz'
         >>> g.game("invalid")
         Traceback (most recent call last):
-          File "C:\\Users\\Jodua\\AppData\\Local\\Programs\\Python\\Python39\\lib\\doctest.py", line 1336, in __run
-            exec(compile(example.source, filename, "single",
-          File "<doctest __main__.FizzBuzz.game[4]>", line 1, in <module>
-            g.game("invalid")
-          File "C:\\Users\\Jodua\\Desktop\\Studia3\\TALab\\lab07\\laboratorium-7-jodua\\src\\FizzBuzz.py", line 17, in game
-            raise TypeError("Invalid type (should be int)")
+        ...
         TypeError: Invalid type (should be int)
         >>> g.game(3.14)
         Traceback (most recent call last):
-          File "C:\\Users\\Jodua\\AppData\\Local\\Programs\\Python\\Python39\\lib\\doctest.py", line 1336, in __run
-            exec(compile(example.source, filename, "single",
-          File "<doctest __main__.FizzBuzz.game[4]>", line 1, in <module>
-            g.game("invalid")
-          File "C:\\Users\\Jodua\\Desktop\\Studia3\\TALab\\lab07\\laboratorium-7-jodua\\src\\FizzBuzz.py", line 17, in game
-            raise TypeError("Invalid type (should be int)")
+        ...
         TypeError: Invalid type (should be int)
         >>> g.game([1,2,3,4])
         Traceback (most recent call last):
-          File "C:\\Users\\Jodua\\AppData\\Local\\Programs\\Python\\Python39\\lib\\doctest.py", line 1336, in __run
-            exec(compile(example.source, filename, "single",
-          File "<doctest __main__.FizzBuzz.game[4]>", line 1, in <module>
-            g.game("invalid")
-          File "C:\\Users\\Jodua\\Desktop\\Studia3\\TALab\\lab07\\laboratorium-7-jodua\\src\\FizzBuzz.py", line 17, in game
-            raise TypeError("Invalid type (should be int)")
+        ...
         TypeError: Invalid type (should be int)
         >>> g.game((8,9))
         Traceback (most recent call last):
-          File "C:\\Users\\Jodua\\AppData\\Local\\Programs\\Python\\Python39\\lib\\doctest.py", line 1336, in __run
-            exec(compile(example.source, filename, "single",
-          File "<doctest __main__.FizzBuzz.game[4]>", line 1, in <module>
-            g.game("invalid")
-          File "C:\\Users\\Jodua\\Desktop\\Studia3\\TALab\\lab07\\laboratorium-7-jodua\\src\\FizzBuzz.py", line 17, in game
-            raise TypeError("Invalid type (should be int)")
+        ...
         TypeError: Invalid type (should be int)
         >>> g.game({"A":1})
         Traceback (most recent call last):
-          File "C:\\Users\\Jodua\\AppData\\Local\\Programs\\Python\\Python39\\lib\\doctest.py", line 1336, in __run
-            exec(compile(example.source, filename, "single",
-          File "<doctest __main__.FizzBuzz.game[4]>", line 1, in <module>
-            g.game("invalid")
-          File "C:\\Users\\Jodua\\Desktop\\Studia3\\TALab\\lab07\\laboratorium-7-jodua\\src\\FizzBuzz.py", line 17, in game
-            raise TypeError("Invalid type (should be int)")
+        ...
         TypeError: Invalid type (should be int)
         >>> g.game(False)
         Traceback (most recent call last):
-          File "C:\\Users\\Jodua\\AppData\\Local\\Programs\\Python\\Python39\\lib\\doctest.py", line 1336, in __run
-            exec(compile(example.source, filename, "single",
-          File "<doctest __main__.FizzBuzz.game[4]>", line 1, in <module>
-            g.game("invalid")
-          File "C:\\Users\\Jodua\\Desktop\\Studia3\\TALab\\lab07\\laboratorium-7-jodua\\src\\FizzBuzz.py", line 17, in game
-            raise TypeError("Invalid type (should be int)")
+        ...
         TypeError: Invalid type (should be int)
         >>> g.game(None)
         Traceback (most recent call last):
-          File "C:\\Users\\Jodua\\AppData\\Local\\Programs\\Python\\Python39\\lib\\doctest.py", line 1336, in __run
-            exec(compile(example.source, filename, "single",
-          File "<doctest __main__.FizzBuzz.game[4]>", line 1, in <module>
-            g.game("invalid")
-          File "C:\\Users\\Jodua\\Desktop\\Studia3\\TALab\\lab07\\laboratorium-7-jodua\\src\\FizzBuzz.py", line 17, in game
-            raise TypeError("Invalid type (should be int)")
+        ...
         TypeError: Invalid type (should be int)
         """
         output = ""
